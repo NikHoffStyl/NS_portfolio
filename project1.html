@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nikos Hoff Styl - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://platform.linkedin.com/badges/js/profile.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="profile_name">
+          Nicolas Stylianou
+        <div class="contact_info">
+          <a href="https://www.linkedin.com/in/nicolas-stylianou-phd-52601b188">
+            <img style="height:25px;" src="html_finalprojimages/LI-In-Bug.png"/>
+            </a>
+            <a href="https://github.com/NikHoffStyl/">
+              <img style="height: 25px;" src="html_finalprojimages/github.png"/>
+            </a>
+            <a href="#">
+              <img style="height: 25px;" src="html_finalprojimages/facebook.png"/>
+            </a>
+            <a href="#">
+              <img style="height: 25px;" src="html_finalprojimages/youtube.png"/>
+            </a>
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="index2.html">Home</a>
+          <a class="topmenu" href="aboutme.html">About Me</a>
+          <a class="topmenu" href="skills.html">Skills</a>
+          <div class="dropdown">
+            <a class="topmenu" href="projects.html">Projects</a>
+            <div class="dropdown-content">
+              <a href="project1.html">MSci Project</a>
+              <a href="project2.html">Bioinformatic</a>
+              <a href="project3.html">PhD Project</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="dropdown">
+      <div class="settingsbutton">
+      <a href="#">
+        <img style="width:35px; height:35px" src="html_finalprojimages/Picture2.png">
+      </a>
+      <div class="dropdown-content" style="top:8%">
+        <a class="shTopBar" id="shTopBar" onclick="hideTopBar()">Hide toolbar</a>
+        <a href="#">Language</a>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Soft Projects -->
+    <section id="about-me" class="container">
+          <div>
+              <h1>
+                Search for hidden particles (SHiP) 
+              </h1>
+              <p>
+                The SHiP project was a proposed fixed target experiment at CERN SPS, designed to use meson decays and proton bremsstrahlung to explore the hidden sector, which includes light long-lived particles predicted by various new particle physics models. This repository focused on particular final decay states in: the R-parity violating (RPV) neutralino, heavy-neutral-lepton (HNL),and the dark photon (DP) model. The study presented that the design of this facility is sensitive to the detection of particles of these models through their particular visible final states. Furthermore, the resolution of different timing detectors is considered and the use of time-of-flight is proven to be an impractical particle identification method at SHiP
+              </p>
+          </div>
+          <div>
+            <img src="html_finalprojimages/projects/DetSetUpOverview.png" class="profile_image"/>
+          </div>
+    </section>

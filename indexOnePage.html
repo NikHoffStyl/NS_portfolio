@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nikos Hoff Styl - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://platform.linkedin.com/badges/js/profile.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+        <!-- Navigation Bar -->
+        <nav id="navbar">
+          <div class="profile_name">
+            Nicolas Stylianou
+          <div class="contact_info">
+            <a href="https://www.linkedin.com/in/nicolas-stylianou-phd-52601b188">
+            <img style="height:25px; width:30px" src="html_finalprojimages/LI-In-Bug.png"/>
+            </a>
+            <a href="https://github.com/NikHoffStyl/">
+              <img style="height: 25px;" src="html_finalprojimages/github.png"/>
+            </a>
+            <a href="#">
+              <img style="height: 25px;" src="html_finalprojimages/facebook.png"/>
+            </a>
+            <a href="#">
+              <img style="height: 25px;" src="html_finalprojimages/youtube.png"/>
+            </a>
+          </div>
+          </div>
+          <div class="topdiv">
+            <a class="currentTab">Home</a>
+            <a class="topmenu" href="#about-me">About Me</a>
+            <a class="topmenu" href="#skills">Skills</a>
+            <div class="dropdown">
+              <a class="topmenu" href="#projects">Projects</a>
+              <div class="dropdown-content">
+                <a href="project1.html">MSci Project</a>
+                <a href="project2.html">Bioinformatic</a>
+                <a href="project3.html">PhD Project</a>
+              </div>
+            </div>
+            <a class="topmenu" href="#recommendations">Recommendations</a>
+          </div>
+      </nav>
+      <div class="dropdown">
+        <div class="settingsbutton">
+        <a href="#">
+          <img style="width:35px; height:35px" src="html_finalprojimages/Picture2.png">
+        </a>
+        <div class="dropdown-content" style="top:8%">
+          <a class="shTopBar" id="shTopBar" onclick="hideTopBar()">Hide toolbar</a>
+          <a href="#">Language</a>
+        </div>
+      </div>
+      </div>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="html_finalprojimages/NHStyl.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Nicolas S. 
+          </h1>
+          <p>
+            I am a physicist that has taken an interest in data science, software development, and automation.
+            I have worked on analyses of TBs of data and then interpreting and presenting the outcome. 
+            I am really good at C, C++, Python, Bash and now I will have some capacity for HTML, CSS, JavaScript; and able to promote my findings on this website.
+          </p>
+      </div>              
+    </section>
+    <!-- <div class="badge-base LI-profile-badge"  data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="nicolas-stylianou-phd-52601b188" data-version="v1">
+      <a class="badge-base__link LI-simple-link" href="https://cy.linkedin.com/in/nicolas-stylianou-phd-52601b188?trk=profile-badge">Dr. Nicolas Stylianou</a>
+    </div> -->
+              
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div> 
+
+        <div class="skill">
+            <img src="html_finalprojimages/cproglang.png"/>
+            <h6>C Programming Language</h6>
+            <p>9 years experience</p>
+          </div>
+        
+        <a href="#softprojects">
+        <div class="skill">
+            <img src="html_finalprojimages/cplucplus.png"/>
+            <h6>C++ Programming Language</h6>
+            <p>5 years experience</p>
+        </div>
+        </a>
+
+        <div class="skill">
+            <img src="html_finalprojimages/python.png"/>
+            <h6>Python Programming Language</h6>
+            <p>5 years experience</p>
+          </div>
+        
+        <div class="skill">
+            <img src="html_finalprojimages/bash.jpg"/>
+            <h6>Bash</h6>
+            <p>10 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="html_finalprojimages/github.png"/>
+            <h6>Git</h6>
+            <p>8 years experience</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">        
+        <a href="project1.html">
+        <div class="skill">
+            <img src="html_finalprojimages/projects/SHiPLogo.png"/>
+            <h6>MSci Project</h6>
+            <p>Searching for hidden sectors with the SHiP experiment</p>
+        </div>
+        </a>
+        <a href="project2.html">
+          <div class="skill">
+              <img src="html_finalprojimages/projects/dna.jpg"/>
+              <h6>Bioinformatics</h6>
+              <p>Visualisation tools for bioiformatics project</p>
+          </div>
+          </a>
+          <a href="project3.html">
+            <div class="skill">
+                <img src="html_finalprojimages/projects/CMSlogo_color.png"/>
+                <h6>PhD Project</h6>
+                <p>Search for the four top quark production process at the CMS experiment via the single lepton channel</p>
+            </div>
+            </a>
+      </div>
+    </section>
+
+    
+    <!-- Soft Projects -->
+    <!-- <section id="softprojects" class="softprojects">
+      <div id="softproj-container" class="softproj-container">
+        <div class="proj-card">
+          <div>
+            <img src="html_finalprojimages/projects/DetSetUpOverview.png" class="proj_img"/>
+          </div>
+    
+          <div>
+              <h2>
+                Search for hidden particles (SHiP) 
+              </h2><br/>
+              <p>
+                The SHiP project was a proposed fixed target experiment at CERN SPS, designed to use meson decays and proton bremsstrahlung to explore the hidden sector, which includes light long-lived particles predicted by various new particle physics models. This repository focused on particular final decay states in: the R-parity violating (RPV) neutralino, heavy-neutral-lepton (HNL),and the dark photon (DP) model. The study presented that the design of this facility is sensitive to the detection of particles of these models through their particular visible final states. Furthermore, the resolution of different timing detectors is considered and the use of time-of-flight is proven to be an impractical particle identification method at SHiP
+              </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Projects -->
+    <!-- <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Hover Craft for Kids</h3>
+            <ul>
+              <li>Developed an app to control the direction of a custom built toy hover craft.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Hover Craft for Kids</h3>
+            <ul>
+              <li>Developed an app to control the direction of a custom built toy hover craft.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Automated toy drone/car</h3>
+            <ul>
+              <li>Created a toys that move by observing (via camera) hand signs of the user.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Automated Reminders to Team</h3>
+            <ul>
+              <li>Created an application to send reminders to teams in different countries.</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <div style="clear:both;"></div> -->
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <!-- <div class="recommendation">
+          <span>&#8220;</span>
+          Nikos is a speeedy learner and quickly grasps key concepts of software development. 
+          He has a great character and works well with others. 
+          He has a curious mind, but is also cautious (curiosity did ko'd the cat).
+          <span>&#8221;</span>
+        </div> -->
+        <!-- <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Nikos has been an awesome experience.
+          He knows a lot about maths, physics and cosmology. 
+          He has data acience skills, which means he can streamline analses of experimental data.
+          He pushes to get work published in journals. So he has my vote! 
+          <span>&#8221;</span>
+        </div> -->
+        <!-- <div class="recommendation">
+          <span>&#8220;</span>
+          If you want someone who can get things done correctly, at the fastest speed possible, 
+          and explain everything in plain english (cutting out the jargon); THEN this is the person to contact.
+          <span>&#8221;</span>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#navbar">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Bravo and thanks for the recommendation!
+           I left you some cookies.</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
